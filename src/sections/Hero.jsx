@@ -1,4 +1,5 @@
 import Button from "../components/Button"
+import HeroExperience from "../components/HeroModels/HeroExperience"
 import { words } from "../constants"
 
 export default function Hero() {
@@ -35,6 +36,12 @@ export default function Hero() {
             <Button className="md:w-80 md:h-16 w-60 h-12" id="button" text="See my Work"/>
           </div>
         </header>
+
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
         
       </div>
     </section>
