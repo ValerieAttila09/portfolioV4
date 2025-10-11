@@ -60,16 +60,16 @@ export default function ShowcaseSection() {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={project2Ref}>
               <div className="image-wrapper bg-[#ffefdb]">
-                <img src="/images/project2.png" alt="Library Management Platform" />
+                <img className="rounded-md" src="/images/project_gw_2.png" alt="Library Management Platform" />
               </div>
-              <h2 className="">Library Management Platform</h2>
+              <h2 className="">NodeOps &mdash; AI Workflow Startrup App</h2>
             </div>
 
             <div className="project" ref={project3Ref}>
               <div className="image-wrapper bg-[#ffe7eb]">
-                <img src="/images/project3.png" alt="YC Directory" />
+                <img className="rounded-md" src="/images/project_gw_3.png" alt="YC Directory" />
               </div>
-              <h2 className="">YC Directory - A Startup Showcase App</h2>
+              <h2 className="">Simple Notes App &mdash; Realtime App With MongoDB</h2>
             </div>
           </div>
         </div>
